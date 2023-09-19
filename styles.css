@@ -1,0 +1,23 @@
+body {
+    background-color: #301934;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    color: rgb(235, 222, 150);
+    font-style: italic;
+    font-weight: 700;
+} 
+
+@media screen and (max-width: 700px){ 
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
