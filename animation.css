@@ -1,0 +1,55 @@
+header {
+    background-color: purple;
+    height: 20vh;
+    margin: 10px;
+}
+
+nav > div {
+    background-color: skyblue;
+    height: 50px;
+    margin: 10px;
+}
+
+aside {
+    background-color: royalblue;
+    height: 50vh;
+    margin: 10px;
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+    margin: 10px;
+}
+
+@keyframes color-swap {
+    from {
+        
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        background-color: purple;
+        height: 15vh;
+        margin: 10px;
+        animation-name: color-swap;
+        animation-duration: 4s;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+
+    aside {
+        width: 25vw;
+    }
+}
